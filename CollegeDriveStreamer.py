@@ -4,8 +4,8 @@ import boto3
 
 def printCollegeDrive():
     pics = 0
-    s3_bucket = 'bucket-michaels' 
-    s3_prefix = 'dev/CollegeStreamData/'  
+    s3_bucket = 'bucket' 
+    s3_prefix = 'prefix'  
 
     s3 = boto3.client('s3')
 
